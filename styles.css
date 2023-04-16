@@ -1,0 +1,77 @@
+body{
+    font-family: Montserrat-black;
+    text-align: center;
+}
+#page1{
+    height: 600px;
+    background-image: url("Software\ and\ App\ Development\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+.container{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+.btn{
+    margin-left: 10px;
+}
+.tags{
+    background-color: rgb(20, 28, 89);
+    text-align: left;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-item{
+    padding: 0% 3%;
+    margin-top: 3%;
+}
+.nav-link{
+    font-family: Montserrat-gray;
+    font-size: 1.5rem;
+}
+.features{
+    background-color: #fff;
+}
+
+.s-bar{
+    margin-left: 18%;
+    margin-top: 2%;
+}
+.user{
+    margin-top: 2%;
+    font-size: 2rem;
+}
+.big-heading{
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+h1,h3,h4{
+    color: white;
+  }
+  .title-img{
+    width: 480px;
+    height: 500px;
+}
+
+.carousel-item
+{
+    padding: 5% 10%;
+}
+
+
+
+
+
+
+
+
+
