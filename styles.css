@@ -1,20 +1,59 @@
 body{
+    background-image: url("Software\ and\ App\ Development\ \(1\).png");
+    background-size: cover;
     font-family: Montserrat-black;
     text-align: center;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 28, 89);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.header-left{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.header-links{
+    display: flex;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: Montserrat-gray;
+}
+
+
+
 #page1{
     height: 600px;
     background-image: url("Software\ and\ App\ Development\ \(1\).png");
-    background-size: cover;
     background-repeat: no-repeat, repeat;
 }
-.container{
+
+
+.body{
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    
-
 }
+
+
+
 .btn{
     margin-left: 10px;
 }
@@ -25,18 +64,6 @@ body{
 .logo{
     height: 80px;
     width: 80px;
-}
-.navbar-brand{
-    font-size: 3rem;
-    font-family: 'Oswald', sans-serif;
-}
-.nav-item{
-    padding: 0% 3%;
-    margin-top: 3%;
-}
-.nav-link{
-    font-family: Montserrat-gray;
-    font-size: 1.5rem;
 }
 .features{
     background-color: #fff;
